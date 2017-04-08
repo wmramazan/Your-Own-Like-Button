@@ -144,7 +144,7 @@ function yolb_settings_page() {
 class yolb_widget extends WP_Widget {
 
 	function __construct() {
-		parent::__construct('yolb_widget', 'Popular Posts', array(
+		parent::__construct('yolb_widget', __('Popular Posts', 'yolb'), array(
 			'classname' => 'yolb_widget',
 			'description' => __('This widget lists the most popular posts', 'yolb')));
 	}

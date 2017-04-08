@@ -173,8 +173,7 @@ class yolb_widget extends WP_Widget {
 			'meta_key' => '_yolb_like',
 			'orderby' => 'meta_value_num',
 			'order' => 'DESC',
-			'number' => 10,
-			'fields' => array('ID', 'post_title')
+			'number' => 10
 		));
 		
 		if($posts) {
